@@ -1,22 +1,22 @@
 {
-  "FileVersion": 3,
-  "EngineAssociation": "5.2",
-  "Category": "",
-  "Description": "",
-  "Modules": [
-    {
-      "Name": "TPS",
-      "Type": "Runtime",
-      "LoadingPhase": "Default"
-    }
-  ],
-  "Plugins": [
-    {
-      "Name": "ModelingToolsEditorMode",
-      "Enabled": true,
-      "TargetAllowList": [
-        "Editor"
-      ]
-    }
-  ]
+	"FileVersion": 3,
+	"EngineAssociation": "{9CA1A5D5-4DB4-6A3E-E068-FFA4730D8889}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TPS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
 }
