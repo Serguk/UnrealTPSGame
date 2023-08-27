@@ -7,8 +7,7 @@
 #include "InputActionValue.h"
 #include "TPSCharacter.generated.h"
 
-
-UCLASS(config=Game)
+UCLASS(config = Game)
 class ATPSCharacter : public ACharacter
 {
     GENERATED_BODY()
@@ -40,16 +39,14 @@ class ATPSCharacter : public ACharacter
 public:
     ATPSCharacter();
 
-
 protected:
     /** Called for movement input */
     void Move(const FInputActionValue& Value);
 
     /** Called for looking input */
     void Look(const FInputActionValue& Value);
-    
-    static void OnResetVR();
 
+    static void OnResetVR();
 
 protected:
     // APawn interface

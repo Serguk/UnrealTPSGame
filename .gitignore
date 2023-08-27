@@ -1,6 +1,6 @@
 .idea
 .vs
-*.sln
+#*.sln
 DerivedDataCache/
 Intermediate/
 BuildFromBat/
